@@ -8,7 +8,7 @@ public class HistoireTP4{
 		Humain prof = new Humain(" prof", " kombucha", 54);
 		prof.direBonjour();
 		prof.acheter(" boison", 12);
-		prof.Boire();
+		prof.boire();
 		prof.acheter("jeu", 2);
 		prof.acheter("kimono", 50);
 

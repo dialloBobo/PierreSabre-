@@ -40,13 +40,13 @@ public class Humain{
 	
 
 	public void perdreArgent(int perte){
-		argent-=1;
+		argent-=perte;
 	
 }
 	public void direBonjour(){
 		System.out.println(prendreParole()+"Bonjour! je m'appelle " + nom +"  et j'aime boire du" + boissonFav );
 	}
-	public void Boire(){
+	public void boire(){
 		System.out.println(prendreParole()+"Mmmm, un bon verre de "+ boissonFav + "!GLOUPS!");	
 	}
 
