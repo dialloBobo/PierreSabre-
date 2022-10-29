@@ -42,7 +42,7 @@ public class Humain{
 	public void perdreArgent(int perte){
 		argent-=perte;
 	
-}
+	}
 	public void direBonjour(){
 		System.out.println(prendreParole()+"Bonjour! je m'appelle " + nom +"  et j'aime boire du" + boissonFav );
 	}
@@ -64,7 +64,7 @@ public class Humain{
 	}
 
 
-	private String prendreParole() {
+	public String prendreParole() {
 		return "(" + nom + ")- ";
 	}
 	
