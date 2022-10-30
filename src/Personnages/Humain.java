@@ -34,8 +34,9 @@ public class Humain{
 	
 	
 	
-	public void gagnerArgent(int gain){
+	public int gagnerArgent(int gain){
 		argent+=gain;
+		return argent;
 	}
 	
 

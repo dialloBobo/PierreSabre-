@@ -2,7 +2,7 @@ package Personnages;
 
 public class Yakuza extends Humain {
 	private String clan;
-	private int reputation=2;
+	private int reputation=1;
 
 	public Yakuza(String nom, String boissonFav, int argent,String clan){
 		super(nom, boissonFav, argent);
@@ -21,16 +21,15 @@ public class Yakuza extends Humain {
 				+ "donne moi ta bourse !");
 	
 		int argentvolé=victime.seFaireExtorquer();
-		gagnerArgent(argentvolé);
+		int argent=super.gagnerArgent(argentvolé);
 		reputation+=1;
 
 		System.out.println(prendreParole()+" j’ai piqué les 15 sous de Marco,"
-				+ " ce qui me fait 45 sous dans ma poche. Hi ! Hi !");
+				+ " ce qui me fait "+ argent+ " sous dans ma poche. Hi ! Hi !");
 	}
 	
-
-
-
+	
+	
 	}
 
 
