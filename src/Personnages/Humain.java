@@ -3,7 +3,7 @@ package Personnages;
 public class Humain{
 	private String nom;
 	private String boissonFav;
-	private int argent;
+	public int argent;
 	
 	
 

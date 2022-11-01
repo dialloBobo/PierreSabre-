@@ -15,7 +15,6 @@ public class HistoireTP4{
 		prof.boire();
 		prof.acheter("jeu", 2);
 		prof.acheter("kimono", 50);
-		
 		Commercant marco=new Commercant("Marco","the",15);
 		marco.direBonjour();
 		marco.seFaireExtorquer();
@@ -28,6 +27,7 @@ public class HistoireTP4{
 		Ronin roro= new Ronin("Roro","shochu",60,1);
 		roro.direBonjour();
 		roro.donner(marco);
+		roro.provoquer(yakuza);
 		
 
 		
